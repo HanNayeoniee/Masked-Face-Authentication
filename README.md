@@ -18,4 +18,20 @@
 
 [Performance](#-Performance)
 
-[Testing](#-Testing)
+---
+## ◼ Approach
+
+---
+## ◼ Dataset
+
+---
+## ◼ Preprocessing Dataset
+
+---
+## ◼ Training
+
+---
+## ◼ Testing
+
+---
+## ◼ Performance
