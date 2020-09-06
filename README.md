@@ -42,7 +42,9 @@
 
 ---
 ## ◼ Performance
-- [한나연(HanNayeoniee)](https://github.com/HanNayeoniee), 
+- [한나연(HanNayeoniee)](https://github.com/HanNayeoniee), [류지혜(jihyejjang)](https://github.com/jihyejjang), 
+
+[성시원(HanNayeoniee)](https://github.com/HanNayeoniee)
 
 ---
 ## ◼ Performance
