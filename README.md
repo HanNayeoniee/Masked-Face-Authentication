@@ -20,8 +20,6 @@
 
 [Developer](#-Developer)
 
-[개발 기간](#-개발-기간)
-
 ---
 ## ◼ Approach
 
@@ -42,7 +40,7 @@
 
 ---
 ## ◼ Developer
-- [한나연(HanNayeoniee)](https://github.com/HanNayeoniee), [류지혜(jihyejjang)](https://github.com/jihyejjang), [성시원(SiwonSeong)](https://github.com/SiWonSeong)
+- [Na Yeon Han(HanNayeoniee)](https://github.com/HanNayeoniee), [Ji Hye Ryu(jihyejjang)](https://github.com/jihyejjang), [Si Won Seong(SiwonSeong)](https://github.com/SiWonSeong)
 
 ---
 ## ◼ Performance
