@@ -18,6 +18,10 @@
 
 [Performance](#-Performance)
 
+[개발자](#-개발자)
+
+[개발 기간](#-개발-기간)
+
 ---
 ## ◼ Approach
 
@@ -35,3 +39,12 @@
 
 ---
 ## ◼ Performance
+
+---
+## ◼ Performance
+- [한나연(HanNayeoniee)](https://github.com/HanNayeoniee), 
+
+---
+## ◼ Performance
+
+
