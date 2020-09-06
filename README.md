@@ -18,7 +18,7 @@
 
 [Performance](#-Performance)
 
-[개발자](#-개발자)
+[Developer](#-Developer)
 
 [개발 기간](#-개발-기간)
 
@@ -41,10 +41,10 @@
 ## ◼ Performance
 
 ---
-## ◼ Performance
+## ◼ Developer
 - [한나연(HanNayeoniee)](https://github.com/HanNayeoniee), [류지혜(jihyejjang)](https://github.com/jihyejjang), 
 
-[성시원(HanNayeoniee)](https://github.com/HanNayeoniee)
+[성시원(SiwonSeong)](https://github.com/HanNayeoniee)
 
 ---
 ## ◼ Performance
