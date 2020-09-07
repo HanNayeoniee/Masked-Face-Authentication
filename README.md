@@ -26,7 +26,7 @@
 ---
 ## ◼ Dataset
 
-① [RFW dataset: Real Faces in-the-wild](http://www.whdeng.cn/RFW/index.html)
+① [RFW(Real Faces in-the-wild) dataset](http://www.whdeng.cn/RFW/index.html)
 
   Datasets consist of four different races for deep face recognition (African, Asian, Caucasian, Indian)
 
@@ -38,13 +38,9 @@
 
   The testing dataset contains 19 subjects and just four of them were also present in the training dataset. 
 
-④ [AT&T](https://git-disl.github.io/GTDLBench/datasets/att_face_dataset/)
+④ [AT&T](https://git-disl.github.io/GTDLBench/datasets/att_face_dataset/): gray scale, 400 samples
 
-  gray scale, 400 samples
-
-⑤ [Cas-Peal pose](http://www.jdl.ac.cn/peal/index.html)
-  
-  Datasets consists of subjects captured in many different conditions (with pose, expression, accessory, and etc.), gray scale
+⑤ [Cas-Peal pose](http://www.jdl.ac.cn/peal/index.html): Datasets consists of subjects captured in many different conditions (with pose, expression, accessory, and etc.), gray scale
   
 ---
 ## ◼ Preprocessing Dataset
