@@ -28,11 +28,9 @@
 
 ① [RFW dataset: Real Faces in-the-wild](http://www.whdeng.cn/RFW/index.html)
 
-Wang, Mei, et al. "Racial faces in the wild: Reducing racial bias by information maximization adaptation network." Proceedings of the IEEE International Conference on Computer Vision. 2019.
+datasets consisting of four different races for deep face recognition (African, Asian, Caucasian, Indian)
 
 ② [Face Spoofing DB](https://www.mdpi.com/2079-9292/9/4/661)
-
-Bok, Jin Yeong, Kun Ha Suh, and Eui Chul Lee. "Verifying the Effectiveness of New Face Spoofing DB with Capture Angle and Distance." Electronics 9.4 (2020): 661.
 
 ③ [IAS-Lab RGB-D Face](http://robotics.dei.unipd.it/reid/index.php/8-dataset/9-overview-face)
 
