@@ -25,7 +25,15 @@
 
 ---
 ## ◼ Dataset
+RFW(11430 images)[4] (http://www.whdeng.cn/RFW/index.html)
 
+Face Spoofing DB(272 images)[5], 
+
+IAS-Lab RGB-D Face(312 imag-es)[6] are color images
+
+AT&T(400 images)[7]
+
+Cas-Peal pose(15600 images)[8]
 ---
 ## ◼ Preprocessing Dataset
 
