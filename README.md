@@ -30,7 +30,7 @@
 
 Wang, Mei, et al. "Racial faces in the wild: Reducing racial bias by information maximization adaptation network." Proceedings of the IEEE International Conference on Computer Vision. 2019.
 
-② Face Spoofing DB
+② [Face Spoofing DB](https://www.mdpi.com/2079-9292/9/4/661)
 
 Bok, Jin Yeong, Kun Ha Suh, and Eui Chul Lee. "Verifying the Effectiveness of New Face Spoofing DB with Capture Angle and Distance." Electronics 9.4 (2020): 661.
 
