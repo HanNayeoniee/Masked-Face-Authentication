@@ -28,20 +28,24 @@
 
 ① [RFW dataset: Real Faces in-the-wild](http://www.whdeng.cn/RFW/index.html)
 
-datasets consisting of four different races for deep face recognition (African, Asian, Caucasian, Indian)
+  Datasets consist of four different races for deep face recognition (African, Asian, Caucasian, Indian)
 
 ② [Face Spoofing DB](https://www.mdpi.com/2079-9292/9/4/661)
 
 ③ [IAS-Lab RGB-D Face](http://robotics.dei.unipd.it/reid/index.php/8-dataset/9-overview-face)
 
-The training dataset consists of 26 subjects captured in 13 different conditions (with pose, light and expression variations), standing 1 or 2 meters from the sensor.
+  The training dataset consists of 26 subjects captured in 13 different conditions (with pose, light and expression variations), standing 1 or 2 meters from the sensor.
 
-The testing dataset contains 19 subjects and just four of them were also present in the training dataset. 
+  The testing dataset contains 19 subjects and just four of them were also present in the training dataset. 
 
 ④ [AT&T](https://git-disl.github.io/GTDLBench/datasets/att_face_dataset/)
 
-⑤ [Cas-Peal pose](http://www.jdl.ac.cn/peal/index.html)
+  gray scale, 400 samples
 
+⑤ [Cas-Peal pose](http://www.jdl.ac.cn/peal/index.html)
+  
+  Datasets consists of subjects captured in many different conditions (with pose, expression, accessory, and etc.), gray scale
+  
 ---
 ## ◼ Preprocessing Dataset
 
