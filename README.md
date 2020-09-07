@@ -25,16 +25,17 @@
 
 ---
 ## ◼ Dataset
-Real Faces in-the-wild: RFW dataset(http://www.whdeng.cn/RFW/index.html)
-(https://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Racial_Faces_in_the_Wild_Reducing_Racial_Bias_by_Information_ICCV_2019_paper.pdf)
+RFW dataset: Real Faces in-the-wild(http://www.whdeng.cn/RFW/index.html)
+Wang, Mei, et al. "Racial faces in the wild: Reducing racial bias by information maximization adaptation network." Proceedings of the IEEE International Conference on Computer Vision. 2019.
 
-Face Spoofing DB(272 images)[5], 
+Face Spoofing DB
+Bok, Jin Yeong, Kun Ha Suh, and Eui Chul Lee. "Verifying the Effectiveness of New Face Spoofing DB with Capture Angle and Distance." Electronics 9.4 (2020): 661.
 
-IAS-Lab RGB-D Face(312 imag-es)[6] are color images
+IAS-Lab RGB-D Face(http://robotics.dei.unipd.it/reid/index.php/8-dataset/9-overview-face)
 
-AT&T(400 images)[7]
+AT&T(https://git-disl.github.io/GTDLBench/datasets/att_face_dataset/)
 
-Cas-Peal pose(15600 images)[8]
+Cas-Peal pose(http://www.jdl.ac.cn/peal/index.html)
 ---
 ## ◼ Preprocessing Dataset
 
