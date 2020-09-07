@@ -26,7 +26,7 @@
 ---
 ## ◼ Dataset
 
-① RFW dataset: Real Faces in-the-wild(http://www.whdeng.cn/RFW/index.html)
+① [RFW dataset: Real Faces in-the-wild](http://www.whdeng.cn/RFW/index.html)
 
 Wang, Mei, et al. "Racial faces in the wild: Reducing racial bias by information maximization adaptation network." Proceedings of the IEEE International Conference on Computer Vision. 2019.
 
