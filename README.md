@@ -25,7 +25,8 @@
 
 ---
 ## ◼ Dataset
-RFW(11430 images)[4] (http://www.whdeng.cn/RFW/index.html)
+Real Faces in-the-wild: RFW dataset(http://www.whdeng.cn/RFW/index.html)
+(https://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Racial_Faces_in_the_Wild_Reducing_Racial_Bias_by_Information_ICCV_2019_paper.pdf)
 
 Face Spoofing DB(272 images)[5], 
 
