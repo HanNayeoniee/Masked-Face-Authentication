@@ -34,11 +34,11 @@ Wang, Mei, et al. "Racial faces in the wild: Reducing racial bias by information
 
 Bok, Jin Yeong, Kun Ha Suh, and Eui Chul Lee. "Verifying the Effectiveness of New Face Spoofing DB with Capture Angle and Distance." Electronics 9.4 (2020): 661.
 
-③ IAS-Lab RGB-D Face(http://robotics.dei.unipd.it/reid/index.php/8-dataset/9-overview-face)
+③ [IAS-Lab RGB-D Face](http://robotics.dei.unipd.it/reid/index.php/8-dataset/9-overview-face)
 
-④ AT&T(https://git-disl.github.io/GTDLBench/datasets/att_face_dataset/)
+④ [AT&T](https://git-disl.github.io/GTDLBench/datasets/att_face_dataset/)
 
-⑤ Cas-Peal pose(http://www.jdl.ac.cn/peal/index.html)
+⑤ [Cas-Peal pose](http://www.jdl.ac.cn/peal/index.html)
 
 ---
 ## ◼ Preprocessing Dataset
