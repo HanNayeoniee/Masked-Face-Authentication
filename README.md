@@ -39,6 +39,14 @@
 ⑤ [Cas-Peal pose](http://www.jdl.ac.cn/peal/index.html): Datasets consists of subjects captured in many different conditions (with pose, expression, accessory, and etc.), gray scale
 
 - Masked Face Dataset
+Collected 300 images from 50 persons(each 6 images) wearing masks
+
+6 images of
+
+얼굴을 완전히 가리도록 마스크를 착용한 경우, 코끝이 보이도록 마스크를 착용한 경우-2가지 시나리오
+각각의 시나리오에서 위, 정면, 아래 3가지 각도로 촬영함
+
+We set 2 scenarios of how people wear masks: wearing masks with the entire nose covered, when wearing masks with the nose tip visible, and then took pictures from above, front, and low
 
 ---
 ## ◼ Preprocessing Dataset
