@@ -47,6 +47,7 @@ We set 2 scenarios of how people wear masks: wearing masks with the entire nose 
 sample images
 
 <img src="https://user-images.githubusercontent.com/33839093/92573827-48127300-f2c1-11ea-861c-4d932eff0131.PNG" width=50%>
+
 <img src="https://user-images.githubusercontent.com/33839093/92573835-49dc3680-f2c1-11ea-86df-4af74e258a2c.PNG" width=50%>
 
 ---
