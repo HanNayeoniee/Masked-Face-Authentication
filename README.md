@@ -46,12 +46,12 @@ We set 2 scenarios of how people wear masks: wearing masks with the entire nose 
 
 sample images
 
-![f_01_topp](https://user-images.githubusercontent.com/33839093/92572568-932b8680-f2bf-11ea-821a-ca41b145289e.jpg)
-![f_01_fron](https://user-images.githubusercontent.com/33839093/92572647-ab9ba100-f2bf-11ea-982a-87410a66c5ec.jpg)
-![f_01_bott](https://user-images.githubusercontent.com/33839093/92572655-ad656480-f2bf-11ea-98f5-eb98db1c060d.jpg)
-![n_01_topp](https://user-images.githubusercontent.com/33839093/92572662-afc7be80-f2bf-11ea-83c4-7077476e0925.jpg)
-![n_01_fron](https://user-images.githubusercontent.com/33839093/92572665-b0f8eb80-f2bf-11ea-95c5-8057d7a3ecb3.jpg)
-![n_01_bott](https://user-images.githubusercontent.com/33839093/92572667-b22a1880-f2bf-11ea-8b86-16290e736e72.jpg)
+<img src="https://user-images.githubusercontent.com/33839093/92572568-932b8680-f2bf-11ea-821a-ca41b145289e.jpg" width=30%>
+<img src="https://user-images.githubusercontent.com/33839093/92572647-ab9ba100-f2bf-11ea-982a-87410a66c5ec.jpg" width=30%>
+<img src="https://user-images.githubusercontent.com/33839093/92572655-ad656480-f2bf-11ea-98f5-eb98db1c060d.jpg" width=30%>
+<img src="https://user-images.githubusercontent.com/33839093/92572662-afc7be80-f2bf-11ea-83c4-7077476e0925.jpg" width=30%>
+<img src="https://user-images.githubusercontent.com/33839093/92572665-b0f8eb80-f2bf-11ea-95c5-8057d7a3ecb3.jpg" width=30%>
+<img src="https://user-images.githubusercontent.com/33839093/92572667-b22a1880-f2bf-11ea-8b86-16290e736e72.jpg" width=30%>
 
 ---
 ## ◼ Preprocessing Dataset
