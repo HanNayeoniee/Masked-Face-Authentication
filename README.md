@@ -49,18 +49,6 @@ sample images
 <img src="https://user-images.githubusercontent.com/33839093/92573827-48127300-f2c1-11ea-861c-4d932eff0131.PNG" width=50%>
 <img src="https://user-images.githubusercontent.com/33839093/92573835-49dc3680-f2c1-11ea-86df-4af74e258a2c.PNG" width=50%>
 
-
-
-
-
-<img src="https://user-images.githubusercontent.com/33839093/92572655-ad656480-f2bf-11ea-98f5-eb98db1c060d.jpg" width=20%>
-<img src="https://user-images.githubusercontent.com/33839093/92572662-afc7be80-f2bf-11ea-83c4-7077476e0925.jpg" width=20%>
-<img src="https://user-images.githubusercontent.com/33839093/92572665-b0f8eb80-f2bf-11ea-95c5-8057d7a3ecb3.jpg" width=20%>
-<img src="https://user-images.githubusercontent.com/33839093/92572667-b22a1880-f2bf-11ea-8b86-16290e736e72.jpg" width=20%>
-
-![github_코가려짐](https://user-images.githubusercontent.com/33839093/92573827-48127300-f2c1-11ea-861c-4d932eff0131.PNG)
-![github_코보임](https://user-images.githubusercontent.com/33839093/92573835-49dc3680-f2c1-11ea-86df-4af74e258a2c.PNG)
-
 ---
 ## ◼ Preprocessing Dataset
 
