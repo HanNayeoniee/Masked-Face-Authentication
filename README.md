@@ -40,7 +40,7 @@
 
 - Masked Face Dataset
 
-300 images from 50 persons(each 6 images) wearing masks
+We collected 300 images from 50 persons(each 6 images) wearing masks
 
 We set 2 scenarios of how people wear masks: wearing masks with the entire nose covered, when wearing masks with the nose tip visible, and then took pictures from above, front, and low
 
