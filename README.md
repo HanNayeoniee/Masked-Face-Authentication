@@ -57,7 +57,7 @@ sample images
 
 ① detecting facial landmarks
 
-    we used Adrian's method to detect facial landmarks
+    we used [Adrian's method](https://github.com/1adrianb/face-alignment) to detect facial landmarks
   
 ② getting ROI images
 
