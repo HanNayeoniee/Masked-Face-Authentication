@@ -53,21 +53,23 @@ sample images
 ---
 ## ◼ Pre-processing Dataset
 
-pre-processing includes three steps: detecting facial landmarks, getting ROI images, and resizing
+- pre-processing includes three steps: detecting facial landmarks, getting ROI images, and resizing
 
 ① detecting facial landmarks
 
-  we used Adrian's method to detect facial landmarks
+    we used Adrian's method to detect facial landmarks
   
 ② getting ROI images
 
-  7 landmarks of the 68 points were used to detect periocular regions
+    7 landmarks of the 68 points were used to detect periocular regions
   
-  4 landmarks(both temples, mid-nose, and chin) of the 68 points were used to detect entire face images
+    4 landmarks(both temples, mid-nose, and chin) of the 68 points were used to detect entire face images
 
 ③ resizing
-  periocular regions are resized to 91*64
-  entire face images are resized to 120*120
+
+    periocular regions are resized to 91*64
+    
+    entire face images are resized to 120*120
   
 ---
 ## ◼ Training
