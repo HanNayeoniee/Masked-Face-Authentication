@@ -10,7 +10,7 @@
 
 [Dataset](#-Dataset) 
 
-[Preprocessing Dataset](#-Preprocessing-Dataset) 
+[Pre-processing Dataset](#-Pre-processing-Dataset) 
 
 [Training](#-Training)  
 
@@ -51,7 +51,8 @@ sample images
 <img src="https://user-images.githubusercontent.com/33839093/92573835-49dc3680-f2c1-11ea-86df-4af74e258a2c.PNG" width=50%>
 
 ---
-## ◼ Preprocessing Dataset
+## ◼ Pre-processing Dataset
+
 
 ---
 ## ◼ Training
