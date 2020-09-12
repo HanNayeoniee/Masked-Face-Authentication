@@ -76,6 +76,8 @@ sample images
 ---
 ## ◼ Training
 
+Siamese Network
+
 ---
 ## ◼ Testing
 
