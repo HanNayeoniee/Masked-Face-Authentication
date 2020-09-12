@@ -10,7 +10,9 @@
 
 [Dataset](#-Dataset) 
 
-[Pre-processing Dataset](#-Pre-processing-Dataset) 
+[Pre-processing Dataset](#-Pre-processing-Dataset)
+
+[Face Image pre-processing](#-Face-Image-pre-processing)
 
 [Training](#-Training)  
 
@@ -51,7 +53,7 @@ sample images
 <img src="https://user-images.githubusercontent.com/33839093/92573835-49dc3680-f2c1-11ea-86df-4af74e258a2c.PNG" width=50%>
 
 ---
-## ◼ Pre-processing Dataset
+## ◼ Face Image pre-processing
 
 - pre-processing includes three steps: detecting facial landmarks, getting ROI images, and resizing
 
