@@ -61,7 +61,9 @@ sample images
   
 ② getting ROI images
 
-   7 landmarks of the 68 points were used to detect periocular regions
+   7 landmarks(outer extrema, nose, chin) of the 68 points were used to detect periocular region
+   
+   (point 2, 3): use to get vertical eye to nose distance
   
    4 landmarks(both temples, mid-nose, and chin) of the 68 points were used to detect entire face images
 
