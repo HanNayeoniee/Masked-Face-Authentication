@@ -82,6 +82,8 @@ Siamese Network
 
 (105, 105, 1) size images were used to train model and the constructed Siamese Network extracts features vectors from two input images and reduce to 100x1 size vectors.
 
+Siamese Network code was originally from [here](https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch)
+
 ---
 ## ◼ Testing
 
