@@ -18,6 +18,8 @@
 
 [Performance](#-Performance)
 
+[Weights](#-Weights)
+
 [Developer](#-Developer)
 
 ---
@@ -89,6 +91,15 @@ Siamese Network code is originally from [here](https://github.com/harveyslash/Fa
 
 ---
 ## ◼ Performance
+
+---
+## ◼ Weights
+
+We trained the model with 3 optimizers(RMSprop, Adam, SGDMomentum) with 4 learning rates(1×10-2, 1×10-3, 1×10-4, 1×10-5), 300 epochs.
+
+Both of the models (trained with full face images and periocular images) showed the least loss when trained with Adam optimizer at the learning rate of 1×10-5.
+
+Followings are weight(.pkl) files
 
 ---
 ## ◼ Developer
