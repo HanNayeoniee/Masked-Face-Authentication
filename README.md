@@ -80,6 +80,8 @@ Siamese Network
 
 <img src="https://user-images.githubusercontent.com/33839093/93066951-8dfe7b00-f6b5-11ea-941c-6cff2d9d463d.PNG" width=60%>
 
+(105, 105, 1) size images were used to train model and the constructed Siamese Network extracts features vectors from two input images and reduce to 100x1 size vectors.
+
 ---
 ## ◼ Testing
 
