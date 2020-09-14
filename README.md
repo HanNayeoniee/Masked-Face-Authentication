@@ -78,7 +78,7 @@ sample images
 
 Siamese Network
 
-<img src="![siamese_network_architecture_table](https://user-images.githubusercontent.com/33839093/93066951-8dfe7b00-f6b5-11ea-941c-6cff2d9d463d.PNG)" width=50%>
+<img src="https://user-images.githubusercontent.com/33839093/93066951-8dfe7b00-f6b5-11ea-941c-6cff2d9d463d.PNG" width=50%>
 
 ---
 ## ◼ Testing
