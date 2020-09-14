@@ -1,7 +1,7 @@
 # Masked-Face-Authentication
 
 ![image](https://img.shields.io/badge/language-python-blue?style=flat-square&logo=python)
-![image](https://img.shields.io/badge/Latest%20Update-2020/09/09-9cf?style=flat-square)
+![image](https://img.shields.io/badge/Latest%20Update-2020/09/14-9cf?style=flat-square)
 [![HitCount](http://hits.dwyl.com/HanNayeoniee/Masked-Face-Authentication.svg)](http://hits.dwyl.com/HanNayeoniee/Masked-Face-Authentication)
 
 
@@ -80,7 +80,7 @@ sample images
 
 Siamese Network
 
-<img src="https://user-images.githubusercontent.com/33839093/93066951-8dfe7b00-f6b5-11ea-941c-6cff2d9d463d.PNG" width=60%>
+<img src="https://user-images.githubusercontent.com/33839093/93066951-8dfe7b00-f6b5-11ea-941c-6cff2d9d463d.PNG" width=70%>
 
 (105, 105, 1) size images were used to train model and the constructed Siamese Network extracts features vectors from two input images and reduce to 100x1 size vectors.
 
