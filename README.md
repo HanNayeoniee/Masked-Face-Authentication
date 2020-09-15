@@ -74,6 +74,8 @@ sample images
    periocular regions are resized to 91*64
     
    entire face images are resized to 120*120
+   
+   for pre-processing face images, check "Full-face dataset generator and for pre-processing periocular images, check "Priocular dataset generator"
   
 ---
 ## ◼ Training
