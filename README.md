@@ -55,8 +55,8 @@ sample images
 ---
 ## ◼ Face Image Pre-processing
 
-- Full-face dataset generator: code for pre-processing face images
-- Priocular dataset generator: code for for pre-processing periocular images
+- Full-face dataset generator.ipynb: code for pre-processing face images
+- Priocular dataset generator.ipynb: code for for pre-processing periocular images
 - pre-processing includes three steps: detecting facial landmarks, getting ROI images, and resizing
 
 ① detecting facial landmarks
