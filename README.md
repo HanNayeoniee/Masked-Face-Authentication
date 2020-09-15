@@ -55,6 +55,8 @@ sample images
 ---
 ## ◼ Face Image Pre-processing
 
+- Full-face dataset generator: code for pre-processing face images
+- Priocular dataset generator: code for for pre-processing periocular images
 - pre-processing includes three steps: detecting facial landmarks, getting ROI images, and resizing
 
 ① detecting facial landmarks
@@ -74,8 +76,6 @@ sample images
    periocular regions are resized to 91*64
     
    entire face images are resized to 120*120
-   
-   for pre-processing face images, check "Full-face dataset generator and for pre-processing periocular images, check "Priocular dataset generator"
   
 ---
 ## ◼ Training
