@@ -86,10 +86,13 @@ Siamese Network
 
 (105, 105, 1) size images were used to train model and the constructed Siamese Network extracts features vectors from two input images and reduce to 100x1 size vectors.
 
+Siamese Network is from thir paper: [Siamese neural networks for one-shot image recognition](http://www.cs.toronto.edu/~gkoch/files/msc-thesis.pdf)
 Siamese Network code is originally from [here](https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch)
 
 ---
 ## ◼ Testing
+
+
 
 ---
 ## ◼ Performance
