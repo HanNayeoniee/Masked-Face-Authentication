@@ -1,7 +1,7 @@
 # Masked-Face-Authentication
 
 ![image](https://img.shields.io/badge/language-python-blue?style=flat-square&logo=python)
-![image](https://img.shields.io/badge/Latest%20Update-2020/09/14-9cf?style=flat-square)
+![image](https://img.shields.io/badge/Latest%20Update-2020/09/16-9cf?style=flat-square)
 [![HitCount](http://hits.dwyl.com/HanNayeoniee/Masked-Face-Authentication.svg)](http://hits.dwyl.com/HanNayeoniee/Masked-Face-Authentication)
 
 
@@ -93,6 +93,7 @@ Siamese Network code is originally from [here](https://github.com/harveyslash/Fa
 ---
 ## ◼ Testing
 
+<img src="https://user-images.githubusercontent.com/33839093/93318020-22e5ad80-f849-11ea-88a8-3f74ccf7bbf0.png", width=70%>
 
 
 ---
