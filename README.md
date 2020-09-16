@@ -14,8 +14,6 @@
 
 [Training](#-Training)  
 
-[Testing](#-Testing)
-
 [Performance](#-Performance)
 
 [Weights](#-Weights)
@@ -91,13 +89,10 @@ Siamese Network is from this paper: [Siamese neural networks for one-shot image 
 Siamese Network code is originally from [here](https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch)
 
 ---
-## ◼ Testing
-
-<img src="https://user-images.githubusercontent.com/33839093/93318020-22e5ad80-f849-11ea-88a8-3f74ccf7bbf0.png" width=40%>
-
-
----
 ## ◼ Performance
+
+We tested the trained model with mask dataset and unmasked dataset
+<img src="https://user-images.githubusercontent.com/33839093/93318020-22e5ad80-f849-11ea-88a8-3f74ccf7bbf0.png" width=40%>
 
 ---
 ## ◼ Weights
@@ -111,8 +106,3 @@ Followings are weight(.pkl) files
 ---
 ## ◼ Developer
 - [Na Yeon Han(HanNayeoniee)](https://github.com/HanNayeoniee), [Ji Hye Ryu(jihyejjang)](https://github.com/jihyejjang), [Si Won Seong(SiwonSeong)](https://github.com/SiWonSeong)
-
----
-## ◼ Performance
-
-
