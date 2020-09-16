@@ -91,7 +91,10 @@ Siamese Network code is originally from [here](https://github.com/harveyslash/Fa
 ---
 ## ◼ Performance
 
-We tested the trained model with mask dataset and unmasked dataset
+After training the Siamese Network with the dataset without wearing masks, we measured the performance of the model using both datasets with and without a mask. 
+
+<img src="https://user-images.githubusercontent.com/33839093/93326717-3a766380-f854-11ea-934d-644c44eb6c28.PNG" width=40%>
+
 <img src="https://user-images.githubusercontent.com/33839093/93318020-22e5ad80-f849-11ea-88a8-3f74ccf7bbf0.png" width=40%>
 
 ---
