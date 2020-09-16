@@ -93,7 +93,7 @@ Siamese Network code is originally from [here](https://github.com/harveyslash/Fa
 ---
 ## ◼ Testing
 
-<img src="https://user-images.githubusercontent.com/33839093/93318020-22e5ad80-f849-11ea-88a8-3f74ccf7bbf0.png", width=70%>
+<img src="https://user-images.githubusercontent.com/33839093/93318020-22e5ad80-f849-11ea-88a8-3f74ccf7bbf0.PNG", width=70%>
 
 
 ---
