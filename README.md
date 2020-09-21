@@ -23,6 +23,12 @@
 ---
 ## ◼ Approach
 
+Siamese network 학습에 필요한 얼굴 이미지를 수집한 후 ROI인 periocular region과 전체 얼굴을 자르는 전처리 과정을 거친다. 
+
+데이터셋은 periocular 이미지, 전체 얼굴 이미지 총 2가지 데이터셋을 활용하며 학습 데이터, 검증 데이터, 테스트 데이터를 약 70%, 15%, 15%의 비율로 나누어 구축한다. 
+
+Periocular와 전체 얼굴 이미지의 성능 비교를 위해 동일한 조건(데이터 구성, 학습과정, 평가)에서 모델을 학습하고 genuine, imposter matching을 테스트하여 적절한 임계값을 도출한다.
+
 ---
 ## ◼ Dataset
 
