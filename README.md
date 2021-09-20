@@ -3,24 +3,38 @@
 ![image](https://img.shields.io/badge/language-python-blue?style=flat-square&logo=python)
 ![image](https://img.shields.io/badge/Latest%20Update-2020/09/19-9cf?style=flat-square)
 
+> 눈 주변 영역(periocular) 이미지만 사용해 마스크 착용자의 얼굴 검증을 수행한다.
+
+## Authors
+
+IHCI 2020 Authentication of Facial Images with Masks using Periocular Biometrics
+
+논문 보러가기 (☞ﾟヮﾟ)☞ [click!](https://drive.google.com/file/d/1ZDcSeAH8MFasMhfSBDxEkAQ5hlBS-tnD/view?usp=sharing)
+
+**Han, N. Y.**, Seong, S. W., Ryu, J., Hwang, H., Joung, J., Lee, J., & Lee, E. C. (2020, November). Authentication of Facial Images with Masks Using Periocular Biometrics. In International Conference on Intelligent Human Computer Interaction (pp. 326-334). Springer, Cham.
 
 
-[Approach](#-Approach) 
+|                 한나연               |                 성시원                |              류지혜               |
+| :------------------------------------------: | :-----------------------------------------: | :----------------------------------------: |
+| <img src="https://user-images.githubusercontent.com/33839093/129561824-7f779bf8-8036-4ab6-812e-4c7aa12c3d79.png" width=150px> | <img src="https://user-images.githubusercontent.com/33839093/134047468-1199ed43-cfb2-48a6-98e9-4b377cce131d.png" width=150px> | <img width="122" alt="jj" src="https://user-images.githubusercontent.com/33839093/134047117-353274f2-4594-42b8-ad15-cc745adfe33c.PNG" width=250px> |
+|                   **[Github](https://github.com/HanNayeoniee)**                   |                   **[Github](https://github.com/SiWonSeong)**                   |               **[Github](https://github.com/jihyejjang)**               |
 
-[Dataset](#-Dataset) 
 
-[Face Image Pre-processing](#-Face-Image-Pre-processing)
+## Files
 
-[Training](#-Training)  
+1. ratio of mask.ipynb
 
-[Performance](#-Performance)
+2. Periocular dataset generator.ipynb
 
-[Weights](#-Weights)
+3. Full-face dataset generator.ipynb
 
-[Developer](#-Developer)
+4. Siamese-networks_training.ipynb
 
----
-## ◼ Approach
+5. Siamese-networks_testing.ipynb
+
+
+
+## Approach
 
 Siamese network 학습에 필요한 얼굴 이미지를 수집한 후 ROI인 periocular region과 전체 얼굴을 자르는 전처리 과정을 거친다. 
 
@@ -28,10 +42,10 @@ Siamese network 학습에 필요한 얼굴 이미지를 수집한 후 ROI인 per
 
 Periocular와 전체 얼굴 이미지의 성능 비교를 위해 동일한 조건(데이터 구성, 학습과정, 평가)에서 모델을 학습하고 genuine, imposter matching을 테스트하여 적절한 임계값을 도출한다.
 
----
-## ◼ Dataset
 
-- Face Dataset
+## Dataset
+
+- **Face Dataset**
 
 ① [RFW(Real Faces in-the-wild) dataset](http://www.whdeng.cn/RFW/index.html): Datasets consist of four different races for deep face recognition (African, Asian, Caucasian, Indian)
 
@@ -43,7 +57,7 @@ Periocular와 전체 얼굴 이미지의 성능 비교를 위해 동일한 조�
 
 ⑤ [Cas-Peal pose](http://www.jdl.ac.cn/peal/index.html): Datasets consists of subjects captured in many different conditions (with pose, expression, accessory, and etc.), gray scale
 
-- Masked Face Dataset
+- **Masked Face Dataset**
 
 We collected 300 images from 50 persons(each 6 images) wearing masks
 
@@ -55,8 +69,8 @@ sample images
 
 <img src="https://user-images.githubusercontent.com/33839093/92573835-49dc3680-f2c1-11ea-86df-4af74e258a2c.PNG" width=60%>
 
----
-## ◼ Face Image Pre-processing
+
+## Face Image Pre-processing
 
 - Full-face dataset generator.ipynb: code for pre-processing face images
 - Priocular dataset generator.ipynb: code for for pre-processing periocular images
@@ -80,8 +94,8 @@ sample images
     
    entire face images are resized to 120*120
   
----
-## ◼ Training
+
+## Training
 
 Siamese Network
 
@@ -95,8 +109,8 @@ Siamese Network is from this paper: [Siamese neural networks for one-shot image 
 
 Siamese Network code is originally from [here](https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch)
 
----
-## ◼ Performance
+
+## Performance
 
 After training the Siamese Network with the dataset without wearing masks, we measured the performance of the model using both datasets with and without a mask. 
 
@@ -104,8 +118,8 @@ After training the Siamese Network with the dataset without wearing masks, we me
 
 <img src="https://user-images.githubusercontent.com/33839093/93318020-22e5ad80-f849-11ea-88a8-3f74ccf7bbf0.png" width=40%>
 
----
-## ◼ Weights
+
+## Weights
 
 We trained the model with 3 optimizers(RMSprop, Adam, SGDMomentum) with 4 learning rates(1×10-2, 1×10-3, 1×10-4, 1×10-5), 300 epochs.
 
@@ -113,6 +127,3 @@ Both of the models (trained with full face images and periocular images) showed 
 
 Followings are weight(.pkl) files
 
----
-## ◼ Developer
-- [Na Yeon Han(HanNayeoniee)](https://github.com/HanNayeoniee), [Ji Hye Ryu(jihyejjang)](https://github.com/jihyejjang), [Si Won Seong(SiwonSeong)](https://github.com/SiWonSeong)
