@@ -1,15 +1,13 @@
 # Masked-Face-Authentication
+> 눈 주변 영역(periocular) 이미지만 사용해 마스크 착용자의 얼굴 검증을 수행한다.
 
 ![image](https://img.shields.io/badge/language-python-blue?style=flat-square&logo=python)
 ![image](https://img.shields.io/badge/Latest%20Update-2020/09/19-9cf?style=flat-square)
 
-> 눈 주변 영역(periocular) 이미지만 사용해 마스크 착용자의 얼굴 검증을 수행한다.
 
 ## Authors
 
-IHCI 2020 Authentication of Facial Images with Masks using Periocular Biometrics
-
-논문 보러가기 (☞ﾟヮﾟ)☞ [click!](https://drive.google.com/file/d/1ZDcSeAH8MFasMhfSBDxEkAQ5hlBS-tnD/view?usp=sharing)
+IHCI 2020 Authentication of Facial Images with Masks using Periocular Biometrics  (☞ﾟヮﾟ)☞ [논문 보러가기](https://drive.google.com/file/d/1ZDcSeAH8MFasMhfSBDxEkAQ5hlBS-tnD/view?usp=sharing)
 
 **Han, N. Y.**, Seong, S. W., Ryu, J., Hwang, H., Joung, J., Lee, J., & Lee, E. C. (2020, November). Authentication of Facial Images with Masks Using Periocular Biometrics. In International Conference on Intelligent Human Computer Interaction (pp. 326-334). Springer, Cham.
 
