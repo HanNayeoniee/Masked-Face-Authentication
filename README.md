@@ -74,13 +74,12 @@ Test dataset은 19명의 이미지로 구성되며, 이 중 4명은 train datase
    periocular 이미지는 91x64 , 전체 얼굴 이미지는 120x120로 resize.  
 
 
-## Training
-
-Siamese Network
+## Training Siamese Network
 
 <img src="https://user-images.githubusercontent.com/33839093/134172026-dc536fdd-3441-44a6-80de-1381cb1ffcc3.PNG" width=70%>
 
-샴 네트워크는 (105, 105, 1)크기의 이미지를 입력받아 100x1 크기의 특징 벡터를 추출한다. genuine pair, imposter pair의 개수를 동일하게 맞추었다.
+샴 네트워크는 (105, 105, 1)크기의 이미지를 입력받아 100x1 크기의 특징 벡터를 추출한다. 
+Genuine pair, Imposter pair의 개수를 동일하게 맞추었다.
 
 
 ## Performance
@@ -93,10 +92,10 @@ Siamese Network
 > - **Siamese-periocular** : 마스크를 쓴 데이터셋(Masked images)으로 학습시킨 모델
 > - 근소하지만 Siamese-periocular 모델(0.26 하락)이 Siamese-face 모델(0.296 하락)보다 성능이 조금 하락한 것을 확인할 수 있다. 
 
-<img src="https://user-images.githubusercontent.com/33839093/93318020-22e5ad80-f849-11ea-88a8-3f74ccf7bbf0.png" width=40%>
+<img src="https://user-images.githubusercontent.com/33839093/93318020-22e5ad80-f849-11ea-88a8-3f74ccf7bbf0.png" width=60%>
 
 > 모델을 3가지 옵티마이저(RMSprop, Adam, SGDMomentum), 4가지 learning rate(1×10-2, 1×10-3, 1×10-4, 1×10-5)을 사용해 300 epoch동안 학습시켰을 때, 
->RMSprop optimizer + learning rate 1×10-5 의 조합이 가장 좋은 성능을 보였다.  
+> RMSprop optimizer + learning rate 1×10-5 의 조합이 가장 좋은 성능을 보였다.  
 
 
 ## Reference
