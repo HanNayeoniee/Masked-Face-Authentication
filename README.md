@@ -59,7 +59,7 @@ Test dataset은 19명의 이미지로 구성되며, 이 중 4명은 train datase
 <img src="https://user-images.githubusercontent.com/33839093/92573835-49dc3680-f2c1-11ea-86df-4af74e258a2c.PNG" width=60%>
 
 
-## 전처리
+## Pre-processing
 
 ① 얼굴 랜드마크 검출
 
