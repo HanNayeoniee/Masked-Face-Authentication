@@ -31,16 +31,6 @@ IHCI 2020 Authentication of Facial Images with Masks using Periocular Biometrics
 5. Siamese-networks_testing.ipynb
 
 
-## Approach
-
-Siamese network 학습에 필요한 얼굴 이미지를 수집한 후 ROI인 periocular region과 전체 얼굴을 자르는 전처리 과정을 거친다. 
-
-데이터셋은 periocular 이미지, 전체 얼굴 이미지 총 2가지 데이터셋을 활용하며 학습 데이터, 검증 데이터, 테스트 데이터를 약 70%, 15%, 15%의 비율로 나누어 구축한다. 
-
-Periocular와 전체 얼굴 이미지의 성능 비교를 위해 동일한 조건(데이터 구성, 학습과정, 평가)에서 모델을 학습하고 genuine, imposter matching을 테스트하여 적절한 임계값을 도출한다.
-
-
-
 ## Dataset
 
 - **Face Dataset**
@@ -51,7 +41,8 @@ Periocular와 전체 얼굴 이미지의 성능 비교를 위해 동일한 조�
 
 ③ [IAS-Lab RGB-D Face](http://robotics.dei.unipd.it/reid/index.php/8-dataset/9-overview-face): 센서에서 1-2 미터 떨어진 곳에서 서서 촬영.
 
-train dataset은 13가지 조건(각도, 빛, 표정 등)에서 촬영한 26명의 이미지, test dataset은 19명의 이미지로 구성되며, 4명은 train dataset과 겹침
+Train dataset은 13가지 조건(각도, 빛, 표정 등)에서 촬영한 26명의 이미지
+Test dataset은 19명의 이미지로 구성되며, 이 중 4명은 train dataset과 겹침
 
 ④ [AT&T](https://git-disl.github.io/GTDLBench/datasets/att_face_dataset/): 흑백 이미지 400장
 
@@ -91,18 +82,18 @@ train dataset은 13가지 조건(각도, 빛, 표정 등)에서 촬영한 26명�
 
 Siamese Network
 
-<img src="https://user-images.githubusercontent.com/33839093/93066951-8dfe7b00-f6b5-11ea-941c-6cff2d9d463d.PNG" width=70%>
+<img src="https://user-images.githubusercontent.com/33839093/134172026-dc536fdd-3441-44a6-80de-1381cb1ffcc3.PNG" width=70%>
 
-(105, 105, 1) size images were used to train model and the constructed Siamese Network extracts features vectors from two input images and reduce to 100x1 size vectors.
+(105, 105, 1)크기의 입력 이미지를 샴 네트워크에 넣어주면 100x1 크기의 특징 벡터를 추출한다.
 
-* We set the genuine matching pairs and imposter matching pairs same.
+* genuine pair, imposter pair의 개수를 동일하게 맞추었다.
 
 
 ## Performance
 
 After training the Siamese Network with the dataset without wearing masks, we measured the performance of the model using both datasets with and without a mask. 
 
-<img src="https://user-images.githubusercontent.com/33839093/93326717-3a766380-f854-11ea-934d-644c44eb6c28.PNG" width=70%>
+<img src="https://user-images.githubusercontent.com/33839093/134172590-e9ed7c0f-e0f4-4f58-b52d-a82ce70cc2b6.PNG" width="70%">
 
 <img src="https://user-images.githubusercontent.com/33839093/93318020-22e5ad80-f849-11ea-88a8-3f74ccf7bbf0.png" width=40%>
 
