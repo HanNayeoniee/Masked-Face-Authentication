@@ -1,5 +1,5 @@
 # Masked-Face-Authentication
-> 눈 주변 영역(periocular) 이미지만 사용해 마스크 착용자의 얼굴 검증을 수행한다.
+> 눈 주변 영역(periocular) 이미지를 사용해 마스크 착용자의 얼굴 검증을 수행한다.
 
 ![image](https://img.shields.io/badge/language-python-blue?style=flat-square&logo=python)
 ![image](https://img.shields.io/badge/Latest%20Update-2020/09/19-9cf?style=flat-square)
@@ -20,15 +20,15 @@ IHCI 2020 Authentication of Facial Images with Masks using Periocular Biometrics
 
 ## Files
 
-1. ratio of mask.ipynb
+1. [ratio of mask.ipynb](https://github.com/HanNayeoniee/Masked-Face-Authentication/blob/master/ratio%20of%20mask%20.ipynb)
 
-2. Periocular dataset generator.ipynb : periocular 이미지 전처리
+2. [Periocular dataset generator.ipynb](https://github.com/HanNayeoniee/Masked-Face-Authentication/blob/master/Periocular%20dataset%20generator.ipynb) : periocular 이미지 전처리
 
-3. Full-face dataset generator.ipynb : 얼굴 이미지 전처리
+3. [Full-face dataset generator.ipynb](https://github.com/HanNayeoniee/Masked-Face-Authentication/blob/master/Full-face%20dataset%20generator.ipynb) : 얼굴 이미지 전처리
 
-4. Siamese-networks_training.ipynb
+4. [Siamese-networks_training.ipynb](https://github.com/HanNayeoniee/Masked-Face-Authentication/blob/master/Siamese-networks_training.ipynb)
 
-5. Siamese-networks_testing.ipynb
+5. [Siamese-networks_testing.ipynb](https://github.com/HanNayeoniee/Masked-Face-Authentication/blob/master/Siamese-networks_testing.ipynb)
 
 
 ## Dataset
@@ -67,11 +67,7 @@ Test dataset은 19명의 이미지로 구성되며, 이 중 4명은 train datase
 
 ② ROI 정의
 
-   총 68개 얼굴 랜드마크 중 7개(outer extrema, nose, chin)를 사용해 눈 주변 영역(periocular)을 정의했다. 
-   
-   총 68개 얼굴 랜드마크 중 4개(both temples, mid-nose, and chin)를 사용해 얼굴 영역을 정의했다. 
-   
-   (point 2, 3): use to get vertical eye to nose distance
+   총 68개 얼굴 랜드마크 중 7개(outer extrema, nose, chin)를 사용해 눈 주변 영역(periocular)을, 4개(both temples, mid-nose, and chin)를 사용해 얼굴 영역을 정의했다. 
    
 ③ resize
 
@@ -84,121 +80,29 @@ Siamese Network
 
 <img src="https://user-images.githubusercontent.com/33839093/134172026-dc536fdd-3441-44a6-80de-1381cb1ffcc3.PNG" width=70%>
 
-(105, 105, 1)크기의 입력 이미지를 샴 네트워크에 넣어주면 100x1 크기의 특징 벡터를 추출한다.
-
-* genuine pair, imposter pair의 개수를 동일하게 맞추었다.
+샴 네트워크는 (105, 105, 1)크기의 이미지를 입력받아 100x1 크기의 특징 벡터를 추출한다. genuine pair, imposter pair의 개수를 동일하게 맞추었다.
 
 
 ## Performance
 
-After training the Siamese Network with the dataset without wearing masks, we measured the performance of the model using both datasets with and without a mask. 
+샴 네트워크를 사용해 2개의 모델을 학습시키고 각각 2개의 데이터셋을 사용해 성능을 측정했다.
 
 <img src="https://user-images.githubusercontent.com/33839093/134172590-e9ed7c0f-e0f4-4f58-b52d-a82ce70cc2b6.PNG" width="70%">
 
+> - **Siamese-face** : 마스크를 안 쓴 데이터셋(Unmasked images)으로 학습시킨 모델
+> - **Siamese-periocular** : 마스크를 쓴 데이터셋(Masked images)으로 학습시킨 모델
+> - 근소하지만 Siamese-periocular 모델(0.26 하락)이 Siamese-face 모델(0.296 하락)보다 성능이 조금 하락한 것을 확인할 수 있다. 
+
 <img src="https://user-images.githubusercontent.com/33839093/93318020-22e5ad80-f849-11ea-88a8-3f74ccf7bbf0.png" width=40%>
 
+> 모델을 3가지 옵티마이저(RMSprop, Adam, SGDMomentum), 4가지 learning rate(1×10-2, 1×10-3, 1×10-4, 1×10-5)을 사용해 300 epoch동안 학습시켰을 때, 
+>RMSprop optimizer + learning rate 1×10-5 의 조합이 가장 좋은 성능을 보였다.  
 
-## Weights
-
-We trained the model with 3 optimizers(RMSprop, Adam, SGDMomentum) with 4 learning rates(1×10-2, 1×10-3, 1×10-4, 1×10-5), 300 epochs.
-
-Both of the models (trained with full face images and periocular images) showed the least loss when trained with Adam optimizer at the learning rate of 1×10-5.
-
-Followings are weight(.pkl) files
 
 ## Reference
 
-[Facial-Similarity-with-Siamese-Networks-in-Pytorch](https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch)
+- [Facial-Similarity-with-Siamese-Networks-in-Pytorch](https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch)
 
-[Siamese neural networks for one-shot image recognition](http://www.cs.toronto.edu/~gkoch/files/msc-thesis.pdf)
+- [Siamese neural networks for one-shot image recognition](http://www.cs.toronto.edu/~gkoch/files/msc-thesis.pdf)
 
-[face-alignment](https://github.com/1adrianb/face-alignment) 
-
-
----
-## Eng
-
-## Dataset
-
-- **Face Dataset**
-
-① [RFW(Real Faces in-the-wild) dataset](http://www.whdeng.cn/RFW/index.html): Datasets consist of four different races for deep face recognition (African, Asian, Caucasian, Indian)
-
-② [Face Spoofing DB](https://www.mdpi.com/2079-9292/9/4/661)
-
-③ [IAS-Lab RGB-D Face](http://robotics.dei.unipd.it/reid/index.php/8-dataset/9-overview-face) The training dataset consists of 26 subjects captured in 13 different conditions (with pose, light and expression variations), standing 1 or 2 meters from the sensor. The testing dataset contains 19 subjects and just four of them were also present in the training dataset. 
-
-④ [AT&T](https://git-disl.github.io/GTDLBench/datasets/att_face_dataset/): gray scale, 400 samples
-
-⑤ [Cas-Peal pose](http://www.jdl.ac.cn/peal/index.html): Datasets consists of subjects captured in many different conditions (with pose, expression, accessory, and etc.), gray scale
-
-- **Masked Face Dataset**
-
-We collected 300 images from 50 persons(each 6 images) wearing masks
-
-We set 2 scenarios of how people wear masks: wearing masks with the entire nose covered, when wearing masks with the nose tip visible, and then took pictures from above, front, and low
-
-sample images
-
-<img src="https://user-images.githubusercontent.com/33839093/92573827-48127300-f2c1-11ea-861c-4d932eff0131.PNG" width=60%>
-
-<img src="https://user-images.githubusercontent.com/33839093/92573835-49dc3680-f2c1-11ea-86df-4af74e258a2c.PNG" width=60%>
-
-
-## Face Image Pre-processing
-
-- Full-face dataset generator.ipynb: code for pre-processing face images
-- Priocular dataset generator.ipynb: code for for pre-processing periocular images
-- pre-processing includes three steps: detecting facial landmarks, getting ROI images, and resizing
-
-① detecting facial landmarks
-
-   we used [Adrian's method](https://github.com/1adrianb/face-alignment) to detect facial landmarks
-  
-② getting ROI images
-
-   7 landmarks(outer extrema, nose, chin) of the 68 points were used to detect periocular region
-   
-   (point 2, 3): use to get vertical eye to nose distance
-  
-   4 landmarks(both temples, mid-nose, and chin) of the 68 points were used to detect entire face images
-
-③ resizing
-
-   periocular regions are resized to 91*64
-    
-   entire face images are resized to 120*120
-  
-
-## Training
-
-Siamese Network
-
-<img src="https://user-images.githubusercontent.com/33839093/93066951-8dfe7b00-f6b5-11ea-941c-6cff2d9d463d.PNG" width=70%>
-
-(105, 105, 1) size images were used to train model and the constructed Siamese Network extracts features vectors from two input images and reduce to 100x1 size vectors.
-
-* We set the genuine matching pairs and imposter matching pairs same.
-
-Siamese Network is from this paper: [Siamese neural networks for one-shot image recognition](http://www.cs.toronto.edu/~gkoch/files/msc-thesis.pdf)
-
-Siamese Network code is originally from [here](https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch)
-
-
-## Performance
-
-After training the Siamese Network with the dataset without wearing masks, we measured the performance of the model using both datasets with and without a mask. 
-
-<img src="https://user-images.githubusercontent.com/33839093/93326717-3a766380-f854-11ea-934d-644c44eb6c28.PNG" width=70%>
-
-<img src="https://user-images.githubusercontent.com/33839093/93318020-22e5ad80-f849-11ea-88a8-3f74ccf7bbf0.png" width=40%>
-
-
-## Weights
-
-We trained the model with 3 optimizers(RMSprop, Adam, SGDMomentum) with 4 learning rates(1×10-2, 1×10-3, 1×10-4, 1×10-5), 300 epochs.
-
-Both of the models (trained with full face images and periocular images) showed the least loss when trained with Adam optimizer at the learning rate of 1×10-5.
-
-Followings are weight(.pkl) files
-
+- [face-alignment](https://github.com/1adrianb/face-alignment) 
